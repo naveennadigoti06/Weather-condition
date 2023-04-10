@@ -1,11 +1,27 @@
-# Weather-condition
+# <h1> Weather-condition </h1>
+
+
 <img align="center" alt="coding" width="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/ebc4db2235034.560a96356930d.gif">
 <img align="center" alt="coding" width="400" src="https://bestanimations.com/Nature/Storms/lightning-storm-animated-gif-10.gif">
-<img align="center" alt="coding" width="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/01d9bc30971807.563b2b13c384b.gif">
+<img align="center" alt="coding" width="400" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/01d9bc30971807.563b2b13c384b.gif"><br>
+
+* In this project we will learn how to work on a real project of Data Analysis with Python. Questions are given in the project and then solved with the help of Python. It is a project of Data Analysis with Python or you can say, Data Science with Python.
+<br>
+<h2>Description :-</h2><br>
+
+* Here The Weather Dataset is a time series data set with per-hour information about the weather conditions at a particular location. it records Temperature. Dew point Temperature, Realtive Humidity, Wind Speed, visibility, Pressure conditions.
 
 <h2>Dataset :- <br></h2>
-Download the dataset for custom trainig <br>
-https://drive.google.com/file/d/1JvD4Ss2yS3d9X36YkWqmqZXLamNWLSFJ/view?usp=sharing
+* Download the dataset for custom trainig <br>
+https://drive.google.com/file/d/1JvD4Ss2yS3d9X36YkWqmqZXLamNWLSFJ/view?usp=sharing<br>
+* The data is available as a CSV file. we are going to analyze this data set using the pandas DataFrame
+
+<br>
+
+<h2>Requirements :-</h2><br>
+* Python 3.9.13<br>
+* pandas<br>
+<br>Windows<br>
 
 <h2>The commands that we used in this project :- </h2><br>
 * head() - it show the first N rows in the data (by default, N=5).<br>
@@ -18,8 +34,13 @@ https://drive.google.com/file/d/1JvD4Ss2yS3d9X36YkWqmqZXLamNWLSFJ/view?usp=shari
 * count - it shows the total no. of non-null values in each column. It can be applied on a single column as well as on the whole dataframe.<br>
 * value_counts - In a column, it shows all the unique values with their count. It can be applied on a single column only.<br>
 * info() - Provides basic information about the dataframe.<br>
+
+
+
   <br>
   <br>
+  
+  
   Q. 1)  Find all the unique 'Wind Speed' values in the data.<br>
 Q. 2) Find the number of times when the 'Weather is exactly Clear'.<br>
 Q. 3) Find the number of times when the 'Wind Speed was exactly 4 km/h'.<br>
