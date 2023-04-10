@@ -21,7 +21,7 @@ https://drive.google.com/file/d/1JvD4Ss2yS3d9X36YkWqmqZXLamNWLSFJ/view?usp=shari
 <h2>Requirements :-</h2><br>
 * Python 3.9.13<br>
 * pandas<br>
-<br>Windows<br>
+* Windows<br>
 
 <h2>The commands that we used in this project :- </h2><br>
 * head() - it show the first N rows in the data (by default, N=5).<br>
